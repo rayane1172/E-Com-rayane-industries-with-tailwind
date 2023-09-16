@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryn store</title>
+    <!-- file css for tailwind -->
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="dist/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="imgs/name-logo.svg" type="image/x-icon">
+    <!-- web font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+    </style>
+</head>
+
+<body class="mx-auto
+
+">
+
+
+    <header class="absolute h-[80px] w-full ">
+
+        <div class="container flex justify-between items-center h-full">
+            <div class="logo flex items-center justify-center h-full">
+                <img src="imgs/logo.png" alt="logo" class="w-[45px] md:w-[60px]">
+                <h1 class="title
+                text-lg
+                uppercase
+                md:text-xl font-extrabold ">bryn industries</h1>
+            </div>
+            <ul class="links h-full hidden  md:flex md:items-center ">
+                <li class="relative
+                    overflow-hidden
+                    block
+                    w-fit 
+                    after:absolute
+                    after:w-full
+                    after:h-[3px]
+                    after:bg-slate-600
+                    after:bottom-0
+                    after:-left-full
+                    after:transition-[left]
+                    hover:after:left-0"><a href="#home" class="p-5
+                    text-lg
+                    font-semibold
+                    ">home</a></li>
+                <li class="relative
+                    overflow-hidden
+                    block
+                    w-fit 
+                    after:absolute
+                    after:w-full
+                    after:h-[3px]
+                    after:bg-slate-600
+                    after:bottom-0
+                    after:-left-full
+                    after:transition-[left]
+                    hover:after:left-0"><a href="#about" class="p-5
+                    text-lg
+                    font-semibold
+                    ">about-us</a></li>
+                <li class="relative
+                    overflow-hidden
+                    block
+                    w-fit 
+                    after:absolute
+                    after:w-full
+                    after:h-[3px]
+                    after:bg-slate-600
+                    after:bottom-0
+                    after:-left-full
+                    after:transition-[left]
+                    hover:after:left-0"><a href="#product" class="p-5 
+                    text-lg
+                    font-semibold               
+                    ">product</a></li>
+                <li class="relative
+                    overflow-hidden
+                    block
+                    w-fit 
+                    after:absolute
+                    after:w-full
+                    after:h-[3px]
+                    after:bg-slate-600
+                    after:bottom-0
+                    after:-left-full
+                    after:transition-[left]
+                    hover:after:left-0"><a href="#contact" class="p-5
+                    text-lg
+                    font-semibold
+                    ">contact</a></li>
+            </ul>
+            <div class="md:hidden block
+            text-3xl">
+                <i class="
+                fa-solid fa-bars
+                " style="color: #000000;"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="landing 
+    h-[100vh]
+    bg-main-background">
+        <div class="container
+        h-[80vh] 
+        pt-[80px]
+        flex
+        flex-col
+        ">
+
+            <div class="page-content
+            flex 
+            flex-wrap
+            justify-between
+            items-center
+            gap-8
+            md:gap-0
+            w-full
+            ">
+                <div class="content-text
+                w-full
+                text-center
+                md:text-left
+                md:w-[60%]
+                md:self-center
+                md:pl-8
+                ">
+                    <h1 class="title
+                    text-6xl
+                    uppercase
+                    text-second-color
+                    font-extrabold
+                    leading-normal
+                    mb-1
+                    sm:mb-8
+                    ">
+                        the backpakcs<br> spirit.
+                    </h1>
+                    <p class="opacity-60">The paper was blank. It shouldn't have been. There should have been writing on
+                        the paper, at
+                        least a
+                        paragraph if not
+                        more.</p>
+                    <a href="#shop-now" class="bg-btn-color
+                        inline-block
+                        text-xl
+                        pr-14
+                        pl-3
+                        py-3
+                        mt-3
+                        font-bold                      
+                        relative
+                        z-50
+                        group
+                        rounded-xl
+                        shadow-md
+                        shadow-second-color/70
+                        text-white">shop now
+                        <i class="fa-solid fa-arrow-right
+                    absolute
+                    right-5
+                    top-1/2
+                    -translate-y-1/2
+                    transition-transform
+                    duration-300
+                    group-hover:translate-x-2
+                    "></i></a>
+                </div>
+                <div class="image
+                w-[150px]
+                mx-auto
+                sm:w-[300px]
+                md:w-[40%]
+                md:h-full
+                md:flex
+                md:justify-center
+                md:items-center
+                ">
+                    <img src="imgs/cartable-landing.png" alt="bag" class="
+                    h-[150px]
+                    sm:h-full
+                    md:h-[500px]
+                    max-w-full
+                    w-full
+                    transition
+                    animate-bounceV2">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-landing 
+        bg-second-color
+        w-full
+        h-[324px]
+        md:h-[20vh]">
+            <div class="container 
+            flex 
+            flex-wrap
+            justify-center
+            items-center
+            gap-1
+            md:gap-10
+            md:text-start
+            text-center
+            ">
+                <div class="box 
+                w-full
+                h-[100px]
+                sm:h-auto
+                sm:w-3/4
+                md:w-[200px]
+                flex-wrap
+                items-center
+                md:mt-5
+                mt-2
+                ">
+                    <div class="flex 
+                                items-center">
+                        <i class="fa-solid fa-truck-fast 
+                                            text-orange-400
+                                            p-3
+                                            bg-slate-800
+                                            "></i>
+                        <h2 class="text-white
+                        font-bold
+                        text-2xl
+                        ml-3
+                        ">free shipping</h2>
+                    </div>
+                    <p class="
+                    text-gray-500
+                    text-lg
+                    ml-14
+                    font-semibold
+                    ">order now and you'll know</p>
+                </div>
+                <div class="box 
+                w-full
+                h-[100px]
+                sm:h-auto
+                sm:w-3/4
+                md:w-[200px]
+                flex-wrap
+                items-center
+                mt-5">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-headset text-orange-400
+                                            p-3
+                                            bg-slate-800"></i>
+                        <h2 class="text-white
+                        font-bold
+                        text-2xl
+                        ml-3">24/7 support</h2>
+                    </div>
+                    <p class=" text-gray-500
+                    text-lg
+                    ml-14
+                    font-semibold">order now and you'll know</p>
+                </div>
+                <div class="box 
+                w-full
+                h-[100px]
+                sm:h-auto
+                sm:w-3/4
+                md:w-[200px]
+                flex-wrap
+                items-center
+                mt-5">
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-cart-shopping text-orange-400
+                                            p-3
+                                            bg-slate-800"></i>
+                        <h2 class="text-white
+                        font-bold
+                        text-2xl
+                        ml-3">free return</h2>
+                    </div>
+                    <p class=" text-gray-500
+                    text-lg
+                    ml-14
+                    font-semibold">order now and you'll know</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="features h-[128vh] pt-20
+                sm:mt-0 mt-[15vh]">
+        <div class="container h-full w-full">
+            <div class="title -mt-10 mx-auto text-center">
+                <h1 class="text-2xl uppercase text-gray-400">features</h1>
+                <h3 class="text-6xl font-bold">complete features you get</h3>
+            </div>
+
+            <div class="content-page grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-16">
+                <!-- todo: left part -->
+                <div class="left flex flex-col
+                md:gap-36">
+                    <div class="box flex items-start flex-col md:flex-row text-center md:text-left">
+                        <div class="w-10 h-10 text-center bg-btn-color rounded-[50%] flex justify-center items-center
+                        mx-auto
+                        md:mx-0">
+                            <i class="fa-solid 
+                            fa-check text-white text-3xl"></i>
+                        </div>
+                        <div class="text ml-0 md:ml-3">
+                            <h1 class="mb-4 font-bold mt-2 text-xl">orginal products</h1>
+                            <p class="opacity-60">this is one of the most exciting advantages we have order now and you
+                                will know</p>
+                        </div>
+                    </div>
+                    <div class="box flex items-start flex-col md:flex-row text-center md:text-left">
+                        <div class="w-10 h-10 text-center bg-btn-color rounded-[50%] flex justify-center items-center
+                        mx-auto
+                        md:mx-0">
+                            <i class="fa-solid 
+                                                    fa-check text-white text-3xl"></i>
+                        </div>
+                        <div class="text ml-0 md:ml-3">
+                            <h1 class="mb-4 font-bold mt-2 text-xl">Stylish Design</h1>
+                            <p class="opacity-60">This is one of the most exciting advantages we have. Order now and you
+                                will know.</p>
+                        </div>
+                    </div>
+                    <div class="box flex items-start flex-col md:flex-row text-center md:text-left">
+                        <div class="w-10 h-10 text-center bg-btn-color rounded-[50%] flex justify-center items-center
+                        mx-auto
+                        md:mx-0">
+                            <i class="fa-solid 
+                                                fa-check text-white text-3xl"></i>
+                        </div>
+                        <div class="text ml-0 md:ml-3">
+                            <h1 class="mb-4 font-bold mt-2 text-xl">Good Material</h1>
+                            <p class="opacity-60">This is one of the most exciting advantages we have. Order now and you
+                                will know.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- todo: image part -->
+                <div class="image hidden self-center h-full md:flex md:flex-col justify-center items-center relative ">
+                    <img src="imgs/features-img.png" alt="bag" class="absolute bottom-[30%] z-50">
+                    <span class="back block w-[90%] aspect-square bg-second-color absolute bottom-0"></span>
+                </div>
+                <!-- todo: right part -->
+                <div class="right flex flex-col md:gap-36">
+                    <div class="box flex items-start flex-col md:flex-row text-center md:text-left">
+                        <div class="w-10 h-10 text-center bg-btn-color rounded-[50%] flex justify-center items-center
+                        mx-auto
+                        md:mx-0">
+                            <i class="fa-solid 
+                                                fa-check text-white text-3xl"></i>
+                        </div>
+                        <div class="text ml-0 md:ml-3">
+                            <h1 class="mb-4 font-bold mt-2 text-xl">Waterproof</h1>
+                            <p class="opacity-60">This is one of the most exciting advantages we have. Order now and you
+                                will know.</p>
+                        </div>
+                    </div>
+                    <div class="box flex items-start flex-col md:flex-row text-center md:text-left">
+                        <div class="w-10 h-10 text-center bg-btn-color rounded-[50%] flex justify-center items-center
+                        mx-auto
+                        md:mx-0">
+                            <i class="fa-solid 
+                                                    fa-check text-white text-3xl"></i>
+                        </div>
+                        <div class="text ml-0 md:ml-3">
+                            <h1 class="mb-4 font-bold mt-2 text-xl">Special Features</h1>
+                            <p class="opacity-60">This is one of the most exciting advantages we have. Order now and you
+                                will know.</p>
+                        </div>
+                    </div>
+                    <div class="box flex items-start flex-col md:flex-row text-center md:text-left">
+                        <div class="w-10 h-10 text-center bg-btn-color rounded-[50%] flex justify-center items-center
+                        mx-auto
+                        md:mx-0">
+                            <i class="fa-solid 
+                                                    fa-check text-white text-3xl"></i>
+                        </div>
+                        <div class="text ml-0 md:ml-3">
+                            <h1 class="mb-4 font-bold mt-2 text-xl">Compartments</h1>
+                            <p class="opacity-60">This is one of the most exciting advantages we have. Order now and you
+                                will know.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="benefits h-screen block sm:mt-0 mt-[15vh] bg-main-background">
+        <div class="container h-full
+        pt-3
+        md:pt-0
+    flex
+    flex-col
+    md:flex-row
+    justify-between
+    items-center
+    gap-px
+    md:gap-4">
+            <div class="content-text
+            w-full
+            h-1/2
+            md:h-full
+            md:w-[40%]
+            text-center
+            md:text-left
+            md:flex
+            md:flex-col
+            md:justify-center
+            
+            ">
+                <h1 class="title text-4xl
+                font-extrabold
+                mb-4
+                ">benefits you will get </h1>
+                <p class="leading-normal 
+                opacity-60 mb-5 md:mt-16
+                md:text-2xl">You will definitely get this benefit. This is very useful for your life. You will
+                    definitely get this
+                    benefit. This is
+                    very useful for your life.</p>
+                <ul class="benefits-check text-left font-semibold
+                ">
+                    <li class="flex md:block justify-center items-center mx-auto mb-5"><i class="fa-solid 
+                                                                fa-check text-btn-color text-3xl mr-4"></i>freee
+                        worldwide
+                        shipping</li>
+                    <li class="flex md:block justify-center items-center mx-auto mb-5"><i class="fa-solid 
+                                                                fa-check text-btn-color text-3xl mr-4"></i>customer
+                        service
+                        support 24/7</li>
+                    <li class="flex md:block justify-center items-center mx-auto mb-5"><i class="fa-solid 
+                                                                fa-check text-btn-color text-3xl mr-4"></i>free returns
+                        with
+                        easy terms</li>
+                    <li class="flex md:block justify-center items-center mx-auto mb-5"><i class="fa-solid 
+                                                                fa-check text-btn-color text-3xl mr-4"></i>best
+                        warranty and
+                        support</li>
+                </ul>
+                <a href="#order-now" class="bg-btn-color
+                                    inline-block
+                                    w-fit
+                                    text-xl
+                                    px-14
+                                    py-3
+                                    mt-3
+                                    font-bold           
+                                    rounded-xl
+                                    shadow-md
+                                    shadow-second-color/70
+                                    text-white">order now</a>
+            </div>
+            <div class="content-image
+            flex
+            flex-col
+            w-full
+            h-1/2
+            md:h-full
+            md:w-1/2
+            justify-center
+
+        ">
+                <img class="max-w-full
+                w-3/4
+                rounded-3xl
+                mx-auto
+        
+                " src="imgs/benefits-1.png" alt="1">
+            <div>
+
+            
+
+                <span class="square "></span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

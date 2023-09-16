@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'Cairo', sans-serif;
+        @apply capitalize scroll-smooth;
+    }
+
+}
+@layer components {
+
+    .container {
+        @apply mx-auto px-1;
+    }
+}
